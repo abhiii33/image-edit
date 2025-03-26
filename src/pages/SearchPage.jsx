@@ -87,7 +87,7 @@ const SearchPage = () => {
         {/* Empty State */}
         {!loading && images.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-gray-500">No images found. Try a different search term.</p>
+            <p className="text-gray-500">Edit yout image here</p>
           </div>
         )}
       </div>
